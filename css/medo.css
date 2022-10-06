@@ -1,0 +1,25 @@
+.medo-bg{
+    background-color: #000000dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nao-tenha-medo{
+    width: 80%;
+    margin: 0 auto;
+    padding: 400px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+
+@media (max-width: 800px){
+    #nao-tenha-medo{
+        width: 90%;
+        padding: 300px 0px;
+    }
+    #nao-tenha-medo h2{
+        font-size: 1.2rem;
+    }
+}

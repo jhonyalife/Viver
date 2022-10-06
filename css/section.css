@@ -1,0 +1,20 @@
+ #items-wrapper{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+
+.slick-next{
+    right: 0 !important;
+    z-index: 20;
+}
+
+.slick-prev{
+    left: 0 !important;
+    z-index: 10;
+}

@@ -1,0 +1,52 @@
+article{
+    background-color: #000000dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 400px 0px;
+}
+
+.typing-animation{
+    animation: cursor 500ms infinite normal, typing 4s steps(60) 4s infinite normal both;
+
+}
+
+#fe h2{
+    font-size: 1.5rem;
+}
+
+.line{
+    display: block;
+    text-align: center;
+    color: #fff;
+    border-right: 2px solid rgba(255,255,255,0.75);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 23em;
+    }
+}
+
+@keyframes cursor{
+    from{
+        border-right-color: rgba(255,255,255,0.75);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+@media (max-width: 800px){
+    #fe h2{
+        font-size: 1.2rem;
+    }
+    article{
+        padding: 300px 0px;
+    }
+}

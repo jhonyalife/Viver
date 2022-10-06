@@ -1,0 +1,58 @@
+.photos-bg{
+    background-color: #fff;
+}
+
+#tenha-coragem{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    padding: 2.5rem 0;
+}
+
+.card-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 .5rem rgb(70, 167, 70);;
+    height: 50vh;
+
+}
+
+.img-1{
+    background-image: url("../assets/coragem.webp");
+}
+
+.img-2{
+    background-image: url("../assets/coragem2.webp");
+}
+
+.img-1:hover, .img-2:hover {
+    box-shadow: 0 0 1rem rgb(70, 167, 70);;
+    transform: translateY(-10px);
+  }
+
+#tenha-coragem h2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+  
+
+
+@media (max-width: 800px){
+    #tenha-coragem{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+    #tenha-coragem h2{
+        font-size: 1.2rem;
+    }
+}
