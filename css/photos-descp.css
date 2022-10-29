@@ -3,7 +3,7 @@
 }
 
 #tenha-coragem{
-    width: 80%;
+    max-width: 1250px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
